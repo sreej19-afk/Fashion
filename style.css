@@ -35,9 +35,9 @@ body{
     animation:pulse 1.5s infinite;
 }
 @keyframes pulse{
-    0%{opacity:0.5s;transform:scale(0.95);}
+    0%{opacity:0.5;transform:scale(0.95);}
     50%{opacity:1;transform:scale(1);}
-    100%{opacity:0.5s;transform:scale(0.95);}
+    100%{opacity:0.5;transform:scale(0.95);}
 }
 
 /*navigation*/
@@ -220,7 +220,7 @@ align-items:center;
 }
 .hero-btn.secondary{
     background:transparent;
-    border:1px solid (255,255,255,0.5);
+    border:1px solid rgba(255,255,255,0.5);
     backdrop-filter:blur(10px);
 }
 .hero-thumbnails{
@@ -265,22 +265,17 @@ align-items:center;
     display:flex;
     justify-content:space-around;
     align-items:center;
-
     box-shadow:0 -2px 15px rgba(0,0,0,0.1);
-
     z-index:1000;
 }
 
 .nav-btn{
     text-decoration:none;
     color:#444;
-
     display:flex;
     flex-direction:column;
     align-items:center;
-
     font-size:14px;
-
     transition:0.3s;
 }
 
